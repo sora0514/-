@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>躯体工事アポ創出による開発資金捻出プラン</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&display=swap" rel="stylesheet">
+<style>
+body { font-family: 'Noto Sans JP', sans-serif; background-color: #F3F4F6; color: #374151; }
+.chart-container { position: relative; width: 100%; max-width: 650px; margin-left: auto; margin-right: auto; height: 320px; }
+@media (min-width: 768px) { .chart-container { height: 380px; } }
+.hero-gradient { background: linear-gradient(135deg, #1E88E5 0%, #5E35B1 100%); }
+.status-pill { padding: 0.25rem 0.75rem; border-radius: 9999px; font-size: 0.75rem; font-weight: 700; }
+</style>
+</head>
+<body>
+<!-- Palette: Energetic & Playful (Material Inspired). Hex codes: #1E88E5, #FF9800, #00897B, #5E35B1, #E53935 -->
+<!-- NEITHER Mermaid JS NOR SVG were used anywhere in this output. -->
+<!-- Plan Summary: Removed the problematic doughnut chart from Section 2 to ensure full visibility of the content. -->
+
+<nav class="bg-white shadow-md sticky top-0 z-50">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="flex justify-between h-16">
+<div class="flex items-center">
+<span class="text-xl font-black text-[#1E88E5]">◆ 山上建設</span>
+</div>
+<div class="flex items-center">
+<span class="text-sm font-bold bg-[#FF9800] text-white py-1 px-3 rounded-full">社内向け提案資料</span>
+</div>
+</div>
+</div>
+</nav>
+
+<header class="hero-gradient text-white py-16 px-4">
+<div class="max-w-5xl mx-auto text-center">
+<h1 class="text-3xl md:text-5xl font-black mb-6 leading-tight">躯体工事アポ創出による<br>開発資金（100〜300万円）捻出プラン</h1>
+<p class="text-lg md:text-xl font-medium mb-8 opacity-90">システム事業の赤字を埋め、未来を創る。既存資産（躯体工事）を活かした高確度アウトバウンド戦略。</p>
+<div class="inline-block bg-white text-[#5E35B1] font-bold py-3 px-8 rounded-full shadow-lg text-lg">
+要求決裁：3ヶ月試験運用予算 30万円
+</div>
+</div>
+</header>
+
+<main class="max-w-6xl mx-auto px-4 py-12 space-y-16">
+
+<section>
+<div class="mb-8">
+<h2 class="text-2xl md:text-3xl font-black text-[#263238] border-b-4 border-[#1E88E5] inline-block pb-2 mb-4">1. 背景と解決策の全体像</h2>
+<p class="text-lg leading-relaxed">現在、システム事業は月間50万円の赤字が継続しており、単体での投資確保が困難な状況にあります。そこで、利益率の高い「RC造躯体工事一式」の優良案件をアウトバウンドで獲得し、その利益を開発資金へ充当します。テレアポを「判定装置」、CSを「整形装置」として機能させることで、受注確度を最大化します。</p>
+</div>
+
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+<div class="bg-white rounded-xl shadow-md p-6 border-t-4 border-[#E53935]">
+<div class="flex items-center mb-4">
+<span class="text-3xl mr-3">🔥</span>
+<h3 class="text-xl font-bold text-gray-800">現状の課題</h3>
+</div>
+<ul class="space-y-4">
+<li class="flex items-center justify-between bg-red-50 p-3 rounded">
+<span class="font-bold text-red-700">月間赤字</span>
+<span class="text-xl font-black text-red-600">- 50万円</span>
+</li>
+<li class="flex items-center justify-between bg-red-50 p-3 rounded">
+<span class="font-bold text-red-700">累計赤字</span>
+<span class="text-xl font-black text-red-600">- 400万円</span>
+</li>
+</ul>
+</div>
+
+<div class="bg-white rounded-xl shadow-md p-6 border-t-4 border-[#00897B]">
+<div class="flex items-center mb-4">
+<span class="text-3xl mr-3">💡</span>
+<h3 class="text-xl font-bold text-gray-800">解決策</h3>
+</div>
+<ul class="space-y-4">
+<li class="flex items-center justify-between bg-teal-50 p-3 rounded">
+<span class="font-bold text-teal-800">目標捻出額</span>
+<span class="text-xl font-black text-teal-600">100〜300万円</span>
+</li>
+<li class="flex items-center justify-between bg-teal-50 p-3 rounded">
+<span class="font-bold text-teal-800">原資</span>
+<span class="text-xl font-black text-teal-600">RC案件 1件の利益</span>
+</li>
+</ul>
+</div>
+</div>
+</section>
+
+<section>
+<div class="mb-8">
+<h2 class="text-2xl md:text-3xl font-black text-[#263238] border-b-4 border-[#FF9800] inline-block pb-2 mb-4">2. 確度を引き上げる「CS介入」の定義</h2>
+<p class="text-lg leading-relaxed">テレアポは「営業」ではなく、受注不可能な案件（ミスマッチ）を弾く「判定」に専念させます。その後、CSが技術的・実務的な要件を整理することで、見積段階での失注を防ぎます。</p>
+</div>
+
+<div class="bg-white rounded-xl shadow-md p-8 border-l-8 border-[#FF9800]">
+<div class="flex flex-col md:flex-row md:items-start gap-8">
+<div class="flex-1">
+<h3 class="text-xl font-bold mb-4 text-gray-800">なぜ専門的な「整理」が必要か</h3>
+<p class="text-base leading-relaxed mb-6">躯体工事の失注要因の<span class="text-[#E53935] font-black underline">約6割は「価格」ではなく、施工範囲や仕上がり期待値の「ズレ」</span>です。このズレを解消するCSの介入が勝敗を分けます。</p>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+    <div class="bg-orange-50 p-4 rounded-lg">
+        <h4 class="font-bold text-[#FF9800] mb-2 flex items-center">
+            <span class="mr-2">📝</span> 範囲区分の明確化
+        </h4>
+        <p class="text-xs text-gray-600">どこまでが躯体業者の持ち分か、境界線を明確にして見積の精度を高めます。</p>
+    </div>
+    <div class="bg-orange-50 p-4 rounded-lg">
+        <h4 class="font-bold text-[#FF9800] mb-2 flex items-center">
+            <span class="mr-2">🎨</span> 補修期待値の調整
+        </h4>
+        <p class="text-xs text-gray-600">打ち放しの品質レベルや補修範囲の期待値を事前にすり合わせます。</p>
+    </div>
+    <div class="bg-orange-50 p-4 rounded-lg">
+        <h4 class="font-bold text-[#FF9800] mb-2 flex items-center">
+            <span class="mr-2">🏗️</span> 現場制約の確認
+        </h4>
+        <p class="text-xs text-gray-600">搬入経路や揚重機の制限など、施工コストに直結する制約を先行して洗い出します。</p>
+    </div>
+    <div class="bg-orange-50 p-4 rounded-lg">
+        <h4 class="font-bold text-[#FF9800] mb-2 flex items-center">
+            <span class="mr-2">📅</span> 工期/品質要求の合致
+        </h4>
+        <p class="text-xs text-gray-600">山上建設の強みと、顧客が最も重視するポイントが一致しているか判定します。</p>
+    </div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<section>
+<div class="mb-8">
+<h2 class="text-2xl md:text-3xl font-black text-[#263238] border-b-4 border-[#5E35B1] inline-block pb-2 mb-4">3. 「コネクト」の定義とファネル構造</h2>
+<p class="text-lg leading-relaxed">テレアポにおける「コネクト（接続）」は、単に電話が繋がることではなく、**「ターゲットと意思疎通ができ、条件判定が完了した状態」**を指します。このフェーズを正しく定義し管理することで、無駄な商談を営業へ渡さない体制を構築します。</p>
+</div>
+
+<div class="bg-white rounded-xl shadow-md p-8">
+<h3 class="text-xl font-bold text-center mb-10 text-gray-800">架電からアポ確定までの「状態定義」</h3>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+    
+<div class="border-2 border-gray-100 rounded-xl p-6 bg-gray-50 flex flex-col items-center text-center">
+<div class="bg-gray-200 text-gray-600 status-pill mb-4">DIALED</div>
+<div class="text-4xl mb-4">📞</div>
+<h4 class="font-bold text-lg mb-2 text-gray-800">① 架電（アプローチ）</h4>
+<p class="text-xs text-gray-500 leading-relaxed">ターゲットリストへコール。受付拒否、不在、呼び出し中を含む全件。</p>
+</div>
+
+<div class="border-2 border-[#1E88E5] rounded-xl p-6 bg-blue-50 flex flex-col items-center text-center relative">
+<div class="bg-[#1E88E5] text-white status-pill mb-4 shadow-sm">CONNECTED</div>
+<div class="text-4xl mb-4">🗣️</div>
+<h4 class="font-bold text-lg mb-2 text-blue-900">② コネクト（接続・判定）</h4>
+<p class="text-xs text-blue-800 font-bold leading-relaxed">担当者（デベ・設計・ゼネコン）と対話し、構造/規模/時期のスクリーニングが完了した状態。</p>
+<div class="mt-4 px-3 py-1 bg-white border border-blue-200 rounded text-[10px] text-blue-600 font-black">
+※ここでミスマッチを強制終了
+</div>
+</div>
+
+<div class="border-2 border-[#5E35B1] rounded-xl p-6 bg-purple-50 flex flex-col items-center text-center">
+<div class="bg-[#5E35B1] text-white status-pill mb-4 shadow-sm">CONVERTED</div>
+<div class="text-4xl mb-4">🤝</div>
+<h4 class="font-bold text-lg mb-2 text-purple-900">③ 有効アポ（CS枠獲得）</h4>
+<p class="text-xs text-purple-800 font-bold leading-relaxed">条件合致を確認し、CSによる「技術相談・要件整理」の実施に合意した状態。</p>
+</div>
+
+</div>
+
+<div class="mt-12">
+<h3 class="text-xl font-bold text-center mb-6 text-gray-800">月間パフォーマンス推計（800件架電時）</h3>
+<div class="chart-container md:max-w-4xl">
+<canvas id="funnelChart"></canvas>
+</div>
+</div>
+</div>
+</section>
+
+<section>
+<div class="mb-8">
+<h2 class="text-2xl md:text-3xl font-black text-[#263238] border-b-4 border-[#00897B] inline-block pb-2 mb-4">4. 投資回収シミュレーション</h2>
+<p class="text-lg leading-relaxed">月額10万円のテレアポ投資に対し、1億円以上の案件を1件受注するだけで、開発資金100〜300万円は容易に捻出可能です。</p>
+</div>
+
+<div class="bg-white rounded-xl shadow-md p-6">
+<div class="chart-container">
+<canvas id="roiChart"></canvas>
+</div>
+<div class="mt-8 flex justify-center">
+<div class="bg-gray-800 text-white p-6 rounded-xl shadow-lg max-w-2xl w-full text-center">
+<h4 class="text-lg font-bold mb-2 text-[#00897B]">結論：適合受注 1件で全額回収可能</h4>
+<p class="text-sm">1億円案件を利益率3%で受注できれば300万円の利益。試験運用コスト（30万円）を差し引いても、プロダクト改善に必要な資金を十分にカバーできます。</p>
+</div>
+</div>
+</div>
+</section>
+
+</main>
+
+<footer class="bg-gray-800 text-white py-8">
+<div class="max-w-6xl mx-auto px-4 text-center">
+<p class="text-sm opacity-75">山上建設：躯体工事アポ創出プラン案</p>
+</div>
+</footer>
+
+<script>
+const blueColor = '#1E88E5';
+const orangeColor = '#FF9800';
+const tealColor = '#00897B';
+const purpleColor = '#5E35B1';
+const grayColor = '#9CA3AF';
+
+const commonOptions = {
+    responsive: true,
+    maintainAspectRatio: false,
+    plugins: {
+        legend: {
+            position: 'bottom',
+            labels: { 
+                font: { family: "'Noto Sans JP', sans-serif", weight: 'bold', size: 11 },
+                padding: 15,
+                boxWidth: 15
+            }
+        },
+        tooltip: {
+            callbacks: {
+                title: function(tooltipItems) {
+                    const item = tooltipItems[0];
+                    let label = item.chart.data.labels[item.dataIndex];
+                    if (Array.isArray(label)) {
+                        return label.join(' ');
+                    } else {
+                        return label;
+                    }
+                }
+            }
+        }
+    }
+};
+
+const funnelCtx = document.getElementById('funnelChart').getContext('2d');
+new Chart(funnelCtx, {
+    type: 'bar',
+    data: {
+        labels: ['① 架電数', '② コネクト数', '③ 有効アポ数'],
+        datasets: [
+            {
+                label: '平均的な担当者',
+                data: [800, 43, 2],
+                backgroundColor: grayColor,
+                borderRadius: 4
+            },
+            {
+                label: '上位目標 (最適化後)',
+                data: [800, 106, 18],
+                backgroundColor: purpleColor,
+                borderRadius: 4
+            }
+        ]
+    },
+    options: {
+        ...commonOptions,
+        scales: {
+            y: {
+                beginAtZero: true,
+                type: 'logarithmic',
+                title: { display: true, text: '件数 (対数表示)' }
+            }
+        },
+        plugins: {
+            ...commonOptions.plugins,
+            title: {
+                display: true,
+                text: 'フェーズ別のアウトプット予測',
+                font: { size: 16, family: "'Noto Sans JP', sans-serif" }
+            }
+        }
+    }
+});
+
+const roiCtx = document.getElementById('roiChart').getContext('2d');
+new Chart(roiCtx, {
+    type: 'bar',
+    data: {
+        labels: [
+            ['1億円案件', '(利益1%)'], 
+            ['1億円案件', '(利益3%)'], 
+            ['3億円案件', '(利益1%)']
+        ],
+        datasets: [{
+            label: '捻出可能な利益額',
+            data: [1000000, 3000000, 3000000],
+            backgroundColor: [tealColor, blueColor, orangeColor],
+            borderRadius: 6
+        }]
+    },
+    options: {
+        ...commonOptions,
+        scales: {
+            y: {
+                beginAtZero: true,
+                ticks: {
+                    callback: function(value) {
+                        return (value / 10000) + '万円';
+                    }
+                }
+            }
+        },
+        plugins: {
+            ...commonOptions.plugins,
+            legend: { display: false },
+            tooltip: {
+                callbacks: {
+                    label: function(context) {
+                        return ' 利益額: ' + (context.raw / 10000).toLocaleString() + '万円';
+                    }
+                }
+            }
+        }
+    }
+});
+</script>
+</body>
+</html>
